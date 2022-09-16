@@ -142,10 +142,10 @@ module.exports = {
                     if (!('polisi' in user)) user.polisi = false
                 } else global.db.data.users[m.sender] = {
                     joincount: 1,
-                    healt: 100,
+                    healt: 1000,
                     level: 1,
                     exp: 0,
-                    limit: 10,
+                    limit: 1000,
                     lastseen: 0,
                     usebot: 0,
                     lastclaim: 0,
@@ -720,8 +720,8 @@ Untuk mematikan fitur ini, ketik
     mediaUrl: data.sc,
     mediaType: 2,
     description: '', 
-    title: 'Hay Kak',
-    body: 'Join Gc Bot Kak',
+    title: 'Kontol',
+    body: 'Lu Kontol',
     thumbnail: await(await fetch(img)).buffer(),
     sourceUrl: data.sc
      }}
